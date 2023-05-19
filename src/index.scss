@@ -1,0 +1,50 @@
+@import "~carbon-components/scss/globals/scss/styles.scss";
+
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.box {
+  height: 145px;
+  overflow: auto;
+}
+
+.fontRed {
+  color: red;
+}
+
+.primary {
+  color: #0f62fe;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+
+.my-2 {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.py-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.width-full {
+  width: 100%;
+}

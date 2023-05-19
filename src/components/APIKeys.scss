@@ -1,0 +1,65 @@
+.width80 {
+  width: 80%;
+}
+
+.itsm-settings-accordion {
+  margin-left: 3% !important;
+  margin-top: 2% !important;
+
+  .bx--accordion__content{
+    padding-right: 0 !important;
+  }
+
+  .save-button{
+    padding-top: 4%;
+    padding-right: 0%;
+  }
+}
+.itsm-settings-notification{
+  margin-left: 3%;
+}
+
+
+
+.center {
+  margin: auto;
+}
+
+.mx-2 {
+  margin: 0 2px;
+}
+.mx-5 {
+  margin: 0 5px;
+}
+
+.align-right {
+  float: right;
+}
+
+.p-10 {
+  padding: 10px;
+}
+.p-2 {
+  padding: 2px;
+}
+
+.py-24 {
+  padding-top: 24px;
+}
+
+.shadow {
+//   box-shadow: 1px 1px 3px 2px #888888;
+    box-shadow: 2px 1px 7px #b9b9b9;        
+}
+
+.display-inline-flex {
+  display: inline-flex;
+}
+
+.pt-18 {
+  padding-top: 18%;
+}
+
+.pt-25 {
+  padding-top: 25%;
+}

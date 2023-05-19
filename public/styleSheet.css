@@ -1,0 +1,601 @@
+/* MUI Redesign styles 20.25 June 7, 2022 */
+/* Navbar and header */
+.navBarBG{
+    background: #000 !important;
+    color: #fff !important;
+    /* height: 55px !important; */
+}
+.bx--header__action:hover {
+    background-color: #333 !important;
+}
+.bx--header__action:focus {
+    border-color: #000 !important;
+    outline: none;
+}
+.bx--header__menu-trigger > svg {
+    fill: #fff !important;
+}
+.navbarTitle{
+    color: #fff !important;
+    text-decoration: none;
+}
+.versionNavbar {
+    padding-left: 20px;
+    font-size: 10px;
+    font-weight: 600;
+}
+.userNavBar {
+    font-weight: 400 !important;
+    font-size: 13px;
+    color: #fff;
+}
+.SidebarTitle {
+    padding: 10px 15px;
+        padding-bottom: 10px;
+    padding-bottom: 0;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+.customMenu{
+    fill: red;
+}
+.sideBarMenuIcon{
+    width: 22px;
+    margin-left: 21px;
+    cursor: pointer;
+}
+.cds--grid{
+    margin-top: 30px;
+    /* padding: 15px 23px; */
+}
+.cds--row {
+    display: inline-flex;
+    width: 100%;
+}
+.gridCssBanner{
+    /* padding: 15px 0 !important; */
+    height: 500px;
+}
+.width50{
+    width: 50%;
+}
+.bannerHeight{
+    height: 500px;
+}
+.homeBanner1{
+    width: 100%;
+    height: 100%;
+}
+.bannerHeightSub {
+    height: 250px !important;
+    padding-left: 4px;
+}
+.bannerHeightSubBottomPadd {
+    padding-bottom: 4px;
+}
+.divContainer{
+    background: #f4f4f4;
+}
+.width70{
+    width: 70%;
+}
+.width30{
+    width: 30%;
+}
+.margin0{
+    margin: 0 !important;
+}
+.rightPanelMainDiv {
+    background: #fff;
+    padding: 24px 10%;
+    min-height: 700px;
+    max-height: 700px;
+    overflow: auto;
+}
+.leftPanelMainDiv {
+    padding: 24px 5%;
+}
+.footerClass {
+    font-weight: 600;
+    font-size: 12px;
+}
+.footerSection {
+    background: #ff563d;
+    text-align: right;
+    color: #fff;
+    padding: 5px 3%;
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
+}
+.contactDiv {
+    border: 1px solid #ff563d;
+    margin: 0 10px;
+    min-height: 120px;
+    padding: 10px;
+}
+.contactQuery {
+    min-height: 47px;
+    font-size: 15px;
+}
+.contactPerson {
+    font-weight: 600;
+    font-size: 15px;
+}
+.contactEmail {
+    font-size: 15px;
+    color: #ff563d;
+}
+.panelTitle {
+    /* text-align: center; */
+    font-weight: 600;
+    font-size: 20px;
+    margin: 25px 0 13px 0;
+}
+.leftPanelTitle {
+    /* text-align: center; */
+    font-weight: 600;
+    font-size: 20px;
+    margin: 25px 0 13px 0;
+}
+.fetureContent {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px 0px #c8c8c8;
+}
+.featureContainer {
+    display: inline-flex;
+    margin: 10px 0;
+}
+.featureContentRightPanel {
+    padding: 0 16px;
+}
+.iconCLassRightPanel{
+    width: 24px;
+    font-size: 20px;
+}
+.featureContentStyle{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 28px;
+}
+.featureTitle {
+    font-weight: 600;
+}
+.releaseContentContainer{
+    display: inline-flex;
+    width: 100%;
+}
+.releaseContentSubDiv {
+    padding: 0 16px;
+}
+/* .releaseTimeframe{
+    color: #ff563d;
+} */
+.newApplicationContent{
+    color: #ff563d;
+}
+.tocIcon{
+    margin-top: 4px !important;
+}
+.releaseContentCss{
+    margin: 0 !important;
+    /* padding-left: 8px; */
+}
+.releasetableContentMain {
+    display: inline-flex;
+    margin: 25px 0 13px 0;
+}
+.centeredText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 27px;
+}
+.imageTextContainerPosition{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bannerWelcomeText{
+    top: 40% !important;
+    font-weight: 600;
+    padding-bottom: 4%;
+    font-size: 26px;
+    width: 100%;
+}
+.bannerWelcomeTextSub {
+    padding-top: 25px;
+}
+.formReleaseSelect{
+    width: 75%;
+}
+.selectedReleaseContentConatainer{
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    max-height: 300px;
+    overflow: auto;
+}
+.releaseContentList{
+    padding: 16px 7%;
+}
+.alertNotificationCard {
+    background: #fff;
+    min-height: 130px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px 0px #c8c8c8;
+    display: inline-flex;
+    margin: 10px 0;
+    width: 100%;
+    max-height: 130px;
+    overflow: auto;
+}
+.alertNotificationSideBar {
+    width: 7px;
+    margin: 7px;
+    background: #b3b3b3;
+}
+/* .borderCOlorAlertCss{
+    background: #0544a4;
+} */
+.operationalAlertCss{
+    background: #0544a4 !important;
+}
+.upcomingAlertCss{
+    background: #05a482 !important;
+}
+.alertNotificationIconDiv {
+    padding: 0 20px;
+    margin: auto 0;
+}
+.operationalAlertContentCss{
+    color: #0544a4 !important;
+}
+.upcomingAlertContentCss{
+    color: #05a482 !important;
+}
+.alertNotificationContentTitle {
+    font-weight: 600;
+    padding: 20px 0 10px 0;
+    color: #000;
+}
+.alertContentList{
+    padding: 0px 18px;
+    line-height: 24px;
+}
+/* .alertNotificationContentDiv {
+    max-height: 135px;
+    overflow: auto;
+  } */
+.pageBannerContainer{
+    margin: 35px 0 0 0;
+}
+.bannerTextSub1{
+    top: 37%;
+}
+.bannerTextSub {
+    margin-top: 10px;
+}
+.headerText {
+    padding-left: 3%;
+    transform: none;
+    text-align: left;
+    font-size: 17px;
+    color: #000;
+    left: 0 !important;
+}
+.boldText{
+    font-weight: 600 !important;
+}
+.onboardFormMain{
+    width: 96%;
+    margin: auto auto;
+}
+.formSectionMain {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    min-height: 750px;
+}
+.indexChannelDiv {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    min-height: 750px;
+}
+.bodySectionMain {
+    background: #f4f4f4;
+    padding: 30px;
+    width: 100%;
+    min-height: 750px;
+}
+.accountOnboardFormSeparator {
+    border: 1px solid #c4c4c4;
+    padding: 24px;
+    margin: 0 0 24px 0;
+}
+.accountOnboardTitle {
+    line-height: 28px;
+    padding-bottom: 16px;
+}
+.onboardBtn {
+    float: right !important;
+    outline: none !important;
+    border: 1px solid #ff563d !important;
+    background: #fff !important;
+    margin: 0 14px 0 0 !important;
+    padding: 6px 20px !important;
+    border-radius: 7px !important;
+    color: #ff563d !important;
+    font-weight: 600 !important;
+    box-shadow: 3px 5px 6px 0px #dbdbdb !important;
+    min-height: 35px !important;
+}
+.noBorderRadiusBtn{
+    float: right !important;
+    outline: none !important;
+    border: 1px solid #ff563d !important;
+    background: #fff !important;
+    padding: 15px 35px !important;
+    border-radius: 0 !important;
+    color: #ff563d !important;
+    font-weight: 600 !important;
+    box-shadow: 4px 3px 3px -1px #dbdbdb !important;
+    min-height: 43px !important;
+}
+.onboardBtnDiv {
+    width: 100%;
+    margin: 24px 0;
+}
+.divGrouping {
+    border: 1px dashed #bdbdbd;
+    padding: 16px;
+    margin: 16px 0;
+}
+.textAreaMargin{
+    margin-bottom: 16px;
+}
+.displayInlineDIv{
+    display: inline-flex;
+}
+.displayInlineLabel{
+    font-size: 15px;
+}
+.connectionSuccess{
+    color: green;
+    margin: 5px 10px;
+}
+.connectionFailure{
+    color: red;
+    margin: 5px 10px;
+}
+.linkColor{
+    color: #ff563d;
+}
+.checkboxInput{
+    width: 18px;
+    height: 16px;
+}
+.modalContainerCss {
+    margin: 0 25% !important;
+    top: 20% !important;
+    position: fixed !important;
+    padding: 16px 10px;
+    max-height: 70% !important;
+}
+.floatCheckbox{
+    float: left !important;
+}
+.ruleCheckboxContainer {
+    max-height: 145px;
+    overflow: auto;
+}
+.inputWhite{
+    background: #fff !important;
+}
+.inputTextExternalCss{
+    font-size: 15px;
+    color: #000;
+    padding-bottom: 5px;
+    line-height: 28px;
+}
+.rulesInputContainer {
+    margin: 12px 0;
+}
+.rowSeparator{
+    border-bottom: 1px dashed #d0d0d0;
+    margin-bottom: 10px;
+}
+.groupLabelSpan {
+    font-size: 12px;
+}
+.addAdditionalPropIcon{
+    float: right;
+    width: 20px;
+    margin-top: 0;
+}
+.rulesDivStyleAdditionalProp{
+    padding: 15px 25px;
+    border: 1px solid #868686;
+    padding-bottom: 0 !important;
+    margin: 10px 0;
+}
+.RulesDiv2{
+    display: inline-flex;
+    width: 100%;
+}
+.rulesSubDiv {
+    width: 95%;
+    display: inline-flex;
+}
+.iconDivAdditionalProp{
+    display: inline-flex;
+}
+.iconEditSizeAdditionalProp{
+    width: 20px;
+    color: #000;
+}
+.inputMarginRight{
+    margin-right: 10px;
+}
+.colMaxWidth50{
+    max-width: 50% !important;
+}
+.dashboardCardMain {
+    position: relative;
+    background: #fff;
+    height: 130px;
+    padding: 16px 6%;
+    margin: 20px;
+    box-shadow: 3px 5px 6px 0px #dbdbdb;
+  }
+  
+.toprightIndicator {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    background: yellow;
+}
+.topLeftIconSection {
+    font-size: 18px;
+    width: 61px;
+    height: 61px;
+    background: #f4f4f4;
+    box-shadow: 3px 5px 6px 0px #dbdbdb;
+    border-radius: 50px;
+}
+.configuredBG{
+    background: #a7f0ba;
+}
+.notConfiguredBG{
+    background: #e35757;
+}
+.topLeftIcon {
+    /* position: absolute; */
+    width: 34px;
+    height: 34px;
+    margin: 13px;
+}
+.cardContentContainer {
+    display: inline-flex;
+    position: absolute;
+    top: 25%;
+    left: auto;
+}
+.cardContentTitle {
+    font-size: 17px;
+    padding: 16px 20px;
+}
+.accountDropdownSelect{
+    height: 30px;
+    background: #fff;
+}
+.accountDropdown {
+    width: 20%;
+    margin-right: 16px;
+}
+#accountNameToDashboard{
+    height: 30px !important;
+}
+
+.chatplatform-align-right {
+    text-align: right;
+    float: right;
+}
+.chatPlatformCardMain {
+    position: relative;
+    background: #fff;
+    height: 130px;
+    padding: 16px 6%;
+    margin: 20px;
+    box-shadow: 3px 5px 6px 0px #dbdbdb;
+}
+.chatPlatformCardContainer {
+    top: 25%;
+    left: auto;
+}
+.chatPlatformContentTitle {
+    font-size: 17px;
+    font-weight: bold;
+}
+.chatPlatformContentLabel {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.chatPlatformContent {
+    font-size: 100;
+}
+.chatplatformHeader {
+    padding: 16px 16px 16px 16px;
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.chatPlatformModal button.bx--btn--primary, .chatplatform-align-right button.bx--btn--primary, 
+.rules-popup-container button.bx--btn--primary{
+   
+        float: right !important;
+        outline: none !important;
+        border: 1px solid #ff563d !important;
+        background: #fff !important;
+        padding: 15px 35px !important;
+        border-radius: 0 !important;
+        color: #ff563d !important;
+        font-weight: 600 !important;
+        box-shadow: 4px 3px 3px -1px #dbdbdb !important;
+        min-height: 43px !important;
+    
+}
+.chatPlatformCardMain {
+    position: relative;
+    background: #fff;
+    height: 130px;
+    padding: 16px 6%;
+    margin: 20px;
+    box-shadow: 3px 5px 6px 0px #dbdbdb;
+}
+.chatPlatformCardContainer {
+    top: 25%;
+    left: auto;
+}
+.chatPlatformContentTitle {
+    font-size: 17px;
+    font-weight: bold;
+}
+.chatPlatformContentLabel {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.chatPlatformContent {
+    font-size: 100;
+}
+.chatplatformHeader {
+    padding: 16px 16px 16px 16px;
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.chatPlatformModal button.bx--btn--primary, .chatplatform-align-right button.bx--btn--primary, 
+.rules-popup-container button.bx--btn--primary{
+   
+        float: right !important;
+        outline: none !important;
+        border: 1px solid #ff563d !important;
+        background: #fff !important;
+        padding: 15px 35px !important;
+        border-radius: 0 !important;
+        color: #ff563d !important;
+        font-weight: 600 !important;
+        box-shadow: 4px 3px 3px -1px #dbdbdb !important;
+        min-height: 43px !important;
+    
+}

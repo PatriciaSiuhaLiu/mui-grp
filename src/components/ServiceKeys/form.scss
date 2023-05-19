@@ -1,0 +1,102 @@
+.bx--text-input-wrapper {
+    padding-bottom: 20px !important;
+}
+.bx--select-input__wrapper{
+    padding-bottom: 20px !important;
+}
+.bx--label{
+    font-size: 15px;
+    color: #000;
+    padding-bottom: 5px;
+    line-height: 28px;
+}
+.displayInlineDIv{
+    display: inline-flex;
+}
+.displayInlineLabel{
+    font-size: 15px;
+}
+// .bx--data-table td {
+//     // width: 13% !important;
+// }
+.bx--overflow-menu-options {
+    // left: 1088.57px !important;
+    width: 11rem !important;
+}
+.modal-css {
+    margin: 0 25% !important;
+    top: 25% !important;
+    position: fixed !important;
+    max-height: 500px !important;
+    overflow: auto !important;
+
+}
+.bx--modal-content {
+    box-shadow: none !important;
+    padding-left: 7% !important;
+}
+.bx--rules-popup-container {
+    .bx--modal-content {
+        position: static !important;
+    }
+}
+.bx--label{
+    width: 100%;
+}
+.bx--modal-header__heading{
+    font-size: 1rem;
+}
+.checkConnectionLink{
+    color: blue;
+    text-decoration: underline;
+}
+.connectionSuccess{
+    color: green;
+    margin: 5px 10px;
+}
+.connectionFailure{
+    color: red;
+    margin: 5px 10px;
+}
+.bx--text-input-wrapper-bgEmails {
+    padding-top: 20px !important;
+}
+.groupLabel {
+    font-size: 12px;
+}
+.mx-height-200 {
+    max-height: 200px;
+    overflow: auto;
+}
+#BTNSubFinal {
+    margin-right: 20px;
+}
+.modal-css-ansible {
+    margin: 0 25% !important;
+    top: 20% !important;
+    position: fixed !important;
+    max-height: 460px !important;
+    overflow: auto !important;
+}
+.kafka-stream-flag {
+    margin-top: 54px;
+}
+.cacf-instance-submit {
+    margin-left: 16px;
+    margin-top: 14px;
+}
+.cacf-instance-submit-div {
+    margin-top: 14px;
+}
+.cacf-float-left {
+    float: left;
+}
+.cacf-list-card {
+    min-height: 160px;
+}
+.errorMsg {
+    color: #da1e28;
+}
+.refModal{
+    margin: 15px;
+}
